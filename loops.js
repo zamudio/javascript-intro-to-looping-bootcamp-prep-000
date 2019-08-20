@@ -17,13 +17,3 @@ function whileLoop(number) {
   return "done"
 }
 
-function doWhileLoop(num) {
-  function incrementVariable() {
-    var i = 0
-    i += 1
-    return i
-  }
-  do {
-    console.log("I run once regardless.")
-  } while (incrementVariable() < num)
-}
